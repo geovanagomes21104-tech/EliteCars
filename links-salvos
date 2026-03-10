@@ -1,0 +1,28 @@
+<i class="fa-solid fa-star"></i>
+
+<i class="fa-brands fa-square-instagram"></i>
+
+<i class="fa-brands fa-twitter"></i>
+
+<i class="fa-brands fa-linkedin"></i>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+.color1 { #e6e8e3 };
+.color2 { #d7dacf };
+.color3 { #bec3bc };
+.color4 { #8f9a9c };
+.color5 { #65727a };
