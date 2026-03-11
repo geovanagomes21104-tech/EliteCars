@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
     <form action="">
 
-    <h1>Elite Cars</h1>
+        <h1>Elite Cars</h1>
 
-    <h2>Preencha as seguintes perguntas </h2>
+        <h2>Preencha seus dados</h2>
 
-    <label for="Nome">Nome</label>
-    <input type="nome" placeholder="Digite seu nome"> <br> <br>
+        <label for="Nome">Nome</label>
+        <input type="nome" placeholder="Digite seu nome"> <br> <br>
 
-    <label for="Email">Email</label>
-    <input type="email" placeholder="Digite seu e-mail">
 
-    <label for=""></label>
-    <input type="text">
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Digite seu e-mail"> <br> <br>
 
-    <label for=""></label>
-    <select name="" id="" disabled="disabled">
 
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
+        <label for="Endereço">Endereço</label>
+        <input type="endereço" placeholder="Digite seu endereço"> <br> <br>
+
+
+        <label for="Modelo do carro">Modelo do carro</label>
+        <select name="Carros" id="Carros"> <br> <br>
+
+
+            <option value=""></option>
+            <option value="">BYD</option>
+            <option value="">Porsche</option>
+            <option value="">Range Rover</option>
+            <option value="">Mustang</option>
+        </select> <br> <br>
+
+
+        <label for="Telefone">Telefone</label>
+        <select name="DDD" id="DDD">
+            <option value=""></option>
+            <option value="">11</option>
+            <option value="">21</option>
+            <option value="">31</option>
+            <option value="">27</option>
+        </select> <br> <br>
+        <input id="Telefone" type="number" required> <br> <br>
+
+
+        <label for="Usuário">Usuário</label>
+        <input id="Usuário" type="Usuário" placeholder="Entre com o seu login" name="usuario"> <br> <br>
+
         
-    </select>
+        <label for="Senha">Senha:</label>
+        <input id="Senha" type="password" name="Senha" required>  <br>  <br>
 
-    <label for=""></label>    
-        <select name="" id="">
 
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-        </select>
-
-        <input type="text">
-
-        <label for=""></label>
-        <input type="text">
-
-        <label for=""></label>
-        <input type="text">
-
-        <input type="text">
-        <input type="text">
+        <input type="submit" value="Finalizar meu cadastro">
+        <input type="reset" value="Limpa formulário">
 
     </form>
 </body>
+
 </html>
