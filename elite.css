@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 
+* {
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+}
+
 .cabecalho {
 
-    background-color: bisque;
+    background-color: #24668f;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 15px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .img-lg {
@@ -24,45 +35,49 @@
 
 .ulista li a {
     text-decoration: none;
-    color: bisque;
-    font-size: 20px;
+    color: #183a4e;
+    font-size: 15px;
     text-transform: uppercase;
-    font-weight: 800;
-    font-family: "Pinyon Script", cursive;
+    font-weight: 700;
+    font-family: "Pinyon", sans-serif;
 }
 
 .pinyon-script {
-    font-family: "pinyon script", sans-serif;
+    font-family: "Pinyon", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .img-section-1 {
+    width: 400px;
+}
+
+.section-1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: bisque;
+    background-color: #274f68;
     padding: 40px;
     gap: 60px;
 }
 
 .div-2 p {
-    color: bisque;
-    font-size: 32px;
-    margin-left: 30px;
+    color: #0e1d27;
+    font-size: 31px;
+    margin-left: 29px;
     text-align: center;
 }
 
 span {
-    color: bisque;
+    color: #000000;
     font-size: 60px;
 }
 
 .section-2 {
-    background-color: bisque;
+    background-color: #275470;
     padding: 20px;
-    color: bisque;
+    color: #042f4d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +85,7 @@ span {
     text-align: center;
     font-size: 32px;
     font-size: 30px;
-    color: bisque;
+    color: #022135;
 }
 
 .paragrafo-section-2 h2 {
@@ -86,20 +101,115 @@ span {
     font-size: 30px;
     font-family: "notable", sans-serif;
     display: flex;
-    color: bisque;
+    color: #1f597c;
 }
 
 .span {
-    color: bisque;
+    color: #0e1f29;
 }
 
 .section-3 {
     background-image: url(imagens/Gemini_Generated_Image_cxg48hcxg48hcxg4.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: bottom ;
-background-attachment: fixed;
-padding: 100px;
-display: flex;
-al
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3 button {
+    background-color: #033d61da;
+    color: #70a7c9;
+    padding: 5 px 12px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(#172d3b, #23455cea, #1b4b69, alpha);
+}
+
+.range-rover {
+    width: 250px;
+
+}
+
+.section-4 div {
+    width: 300px;
+    height: 300px;
+    background-color: #064e7a;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 60px;
+    background-color: #275470;
+}
+
+.bloco-2 {
+    background-image: url(imagens/binmassam-porsche-4795517.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bloco-1 h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase
+}
+
+.bloco-1 {
+    font-size: 15px;
+    font-weight: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.fa-star,
+fa-star-half {
+    font-size: 30px;
+    color: #2374a7e8;
+}
+
+.bloco-3 p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.botaocaixa3 {
+    padding: 7px;
+    background-color: #0b212e;
+    color: #486d85;
+    width: 130px;
+    border: none;
+}
+
+footer {
+    background-color: #093652;
+    padding: 80px;
+    color: #4284ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .fa-square-instagram,
+.fa-twitter,
+.fa-linkedin {
+    color: #6e9ab6;
+    font-size: 40px;
+}
+
+.caixa-footer {
+    text-align: center;
 }
