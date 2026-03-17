@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 
+/* Estilização UNIVERSAL */
 * {
-    scroll-behavior: smooth;
-    font-family: 'Courier New', Courier, monospace;
-    list-style: none;
+   
+    scroll-behavior: smooth; /* Trasição universal no Scrool de rolagem */
+    font-family: 'Courier New', Courier, monospace;  /* Família de fonte universal */
+    list-style: none; /* Remobvendo estilo de lista UNIVERSAL */
+    margin: 0; /* Removendo os espaçamentos laterais e superiores */
+    padding: 0; /* Desabilitando preenchimento aplicado por padrão */
+
 }
 
 .cabecalho {
@@ -114,7 +119,7 @@ span {
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
-    padding: 100px;
+    padding: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
