@@ -47,6 +47,11 @@
     font-family: "Pinyon", sans-serif;
 }
 
+.ulista li a:hover{
+    color: rgba(110, 148, 204, 0.925);
+    transition: 0.8s;
+}
+
 .pinyon-script {
     font-family: "Pinyon", sans-serif;
     font-weight: 400;
@@ -55,6 +60,10 @@
 
 .img-section-1 {
     width: 400px;
+}
+
+.img-section-1:hover {
+    box-shadow: 20px 20px 35px #010f18;
 }
 
 .section-1 {
@@ -102,6 +111,21 @@ span {
     font-size: 25px;
 }
 
+.whatsapp img { /* alterando tamanho do icon whatsapp */
+    width: 50px; /* largura do icon */
+}
+
+.whatsapp img:hover {
+    width: 60px;
+    transition: 0.8s;
+}
+
+.whatsapp { /* div guarda o icon whatsapp */
+    position: fixed; /* posicionamento fixo */
+    right: 25px; /* posicionamento à direita (25px)*/
+    bottom: 25px; /* posicionamento à 25px do bottom */
+}
+
 .elite-titulo {
     font-size: 30px;
     font-family: "notable", sans-serif;
@@ -137,6 +161,13 @@ span {
     box-shadow: 0 4px 10px rgba(#172d3b, #23455cea, #1b4b69, alpha);
 }
 
+.section-3 button:hover {
+    color: #4f84a5;
+    transition: 0.5s;
+    box-shadow: 15px 15px 25px #041f30cc;
+} 
+
+
 .range-rover {
     width: 250px;
 
@@ -148,6 +179,11 @@ span {
     background-color: #064e7a;
     padding: 20px;
     text-align: center;
+    box-shadow: 15px 15px 25px #010f18;
+}
+
+.section-4 div:hover {
+    box-shadow: 20px 20px 35px #010f18;
 }
 
 .section-4 {
@@ -215,6 +251,21 @@ footer .fa-square-instagram,
     font-size: 40px;
 }
 
+.fa-linkedin:hover{
+    color:  #183a4e;
+    transition: 0.8s;
+}
+
+.fa-twitter:hover{
+    color:  #183a4e;
+    transition: 0.8s;
+}
+
+.fa-square-instagram:hover {
+    color: #183a4e;
+    ;
+    transition: 0.8s;
+}
 .caixa-footer {
     text-align: center;
 }
